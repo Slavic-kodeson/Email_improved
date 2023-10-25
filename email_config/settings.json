@@ -1,0 +1,27 @@
+{
+    "extensions": ["docx", "doc", "pdf"],
+    "filesize_max": 10.0,
+	"smtp":{
+		"email": "vculev@kodeson.com",
+		"server": "smtp.gmail.com",
+		"port": 587
+	},
+	"credentials": {
+		"email_id": "vculev@kodeson.com",
+		"password": "nvjlvzsqnocdaezm"
+	},
+  "endpoints": {
+    "intership":{
+      "from": "vculev@kodeson.com",
+      "to": ["vculev@kodeson.com"]
+      },
+    "contact_us": {
+      "from": "vculev@kodeson.com",
+      "to": ["vculev@kodeson.com"]
+    },
+    "apply_job": {
+      "from": "vculev@kodeson.com",
+      "to": ["vculev@kodeson.com"]
+    }
+  }
+}
