@@ -20,7 +20,7 @@ def test_contact(adresa_api):
         "Company": "company",
         "Name": "Jim",
         "Phone": "008979283",
-        "Email": "name@nullshit.com",
+        "Email": "name@mail.com",
         "Interest": "buy",
         "Message": "message"
     }
@@ -37,9 +37,9 @@ def test_internship(adresa_api):
 
     email_content = {
         "Name": "Jim",
-        "Job": "Callshik",
+        "Job": "IT",
         "Phone": "008979283",
-        "Sender": "name@nullshit.com",
+        "Sender": "name@mail.com",
         "Message": "message"
     }
 
@@ -55,9 +55,9 @@ def test_apply_job(adresa_api):
 
     email_content = {
         "Name": "Jim",
-        "Job": "Callshik",
+        "Job": "Python",
         "Phone": "008979283",
-        "Sender": "name@nullshit.com",
+        "Sender": "name@java.com",
         "Message": "message"
     }
 
