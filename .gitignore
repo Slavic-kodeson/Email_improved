@@ -1,2 +1,4 @@
 __pycache__/
-
+.pytest_cache
+.idea
+email_env
